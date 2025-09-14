@@ -1,5 +1,5 @@
 function verify(event) {
-    event.preventDefault(); // Fix: pass event from the form
+    event.preventDefault();
 
     const form = document.getElementById('myForm');
     const input = document.getElementById('myInput');
